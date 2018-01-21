@@ -108,7 +108,7 @@ public class QRCodeUtil {
         }
 
         // 解码
-        //输出二维码的内容
+        //输出二维码中的内容
         String reText = QRCodeUtil.qrCodeDecode(qrFile);
         System.out.println(reText);
     }
